@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ipsum Generator</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css"/>
+    <style>
+      body {
+          background-color: lightgreen;
+
+      }
+      div {
+          position: relative;
+          background-color: lightpink;
+          border-left-color: dodgerblue;
+          border-top-color: dodgerblue;
+          border-bottom-color: dodgerblue;
+          border-right-color: dodgerblue;
+          border-style: groove;
+          border-width: 5px;
+          border-radius: 20px;
+      }
+      h1 {
+          text-align: center;
+      }
+      p {
+          text-transform: lowercase;
+          position: relative;
+          left: 10px;
+          width: 1375px;
+      }
+    </style>
+</head>
+<body>
+    <div>
+    <h1>Your Lorem Ipsum</h1>
+    <p> <%= @content %> </p>
+
+    <p><button type=button"><a href="/ipsum">Go back</a></button></p><br>
+    </div>
+</body>
+</html>
